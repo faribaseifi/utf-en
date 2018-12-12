@@ -93,7 +93,7 @@ class App extends Component {
                 />
                 <Route path="/BoardofTrustees" component={BoardofTrustees} />
                 <Route path="/BenefactorDetail/:id" component={BenefactorDetail} />
-                <Route path="/SupporterDetail" component={SupporterDetail} />
+                <Route path="/SupporterDetail/:id" component={SupporterDetail} />
                 <Route path="/Inspector" component={Inspector} />
                 <Route path="/ContactUs" component={ContactUs} />
                 <Route path="/FAQ" component={FAQ} />

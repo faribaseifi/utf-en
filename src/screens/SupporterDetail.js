@@ -1,11 +1,35 @@
 
 import React, { Component , Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import NavItem from '../components/NavItem'
-
-
 class SupporterDetail extends Component {
-render(){
+  state = {
+    supporter_detail : null
+  };
+
+  componentDidMount(){
+ 
+    const supporter_id = this.props.match.params.id;
+    
+    fetch('http://utf.ut.ac.ir/index.php/wsrv/getSupporterById', {
+      method: 'POST',
+      mode : 'cors',
+      body: JSON.stringify({
+        id: supporter_id
+      })
+    }).then(res => {
+      return res.json();
+    }).then(data => {
+      console.log(data);
+      // this.setState({
+      //   supporter_detail : data
+      // })
+    }).catch(error => {
+      console.log(error);
+    })
+  }
+  
+render()
+{
   return (
 
     <Fragment>
@@ -35,40 +59,39 @@ render(){
 
 
     <div className="container">
-    	<div className="row">
-    		<div className="col-md-12">
+      <div className="row">
+        <div className="col-md-12">
 
-    			<div className="agent agent-page agency long-content">
+          <div className="agent agent-page agency long-content">
 
-    				<div className="agent-avatar">
-    					<img src="images/agency-01.jpg" alt=""></img>
-    				</div>
+            <div className="agent-avatar">
+              <img src="images/agency-01.jpg" alt=""></img>
+            </div>
 
-    				<div className="agent-content">
-    					<div className="agent-name">
-    						<h4>King Properties</h4>
-    						<span><i className="fa fa-map-marker"></i> New York</span>
-    					</div>
+            <div className="agent-content">
+              <div className="agent-name">
+                <h4>King Properties</h4>
+                <span><i className="fa fa-map-marker"></i> New York</span>
+              </div>
 
-    					<p>Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
+              <p>Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
 
-    					<ul className="agent-contact-details">
-    						<li><i className="sl sl-icon-call-in"></i>(123) 123-456</li>
-    						<li><i className="fa fa-envelope-o "></i><a href="#"><span className="__cf_email__" data-cfemail="e784888993868493a7829f868a978b82c984888a">[email&nbsp;protected]</span></a></li>
-    					</ul>
+              <ul className="agent-contact-details">
+                <li><i className="sl sl-icon-call-in"></i>(123) 123-456</li>
+                <li><i className="fa fa-envelope-o "></i><a href="#"><span className="__cf_email__" data-cfemail="e784888993868493a7829f868a978b82c984888a">[email&nbsp;protected]</span></a></li>
+              </ul>
 
-    					<div className="clearfix"></div>
-    				</div>
+              <div className="clearfix"></div>
+            </div>
 
-    			</div>
+          </div>
 
-    		</div>
-    	</div>
+        </div>
+      </div>
     </div>
-      </Fragment>
+  </Fragment>
 
   )
+  }
 }
-}
-
 export default SupporterDetail;

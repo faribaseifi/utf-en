@@ -3,7 +3,6 @@ import React, { Component , Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import NavItem from '../components/NavItem'
 
-
 class BenefactorDetail extends Component {
 
   state = {
@@ -11,8 +10,9 @@ class BenefactorDetail extends Component {
   };
 
   componentDidMount(){
-      const Benefactor_id = this.props.match.params.id;
-      fetch('http://utf.ut.ac.ir/index.php/wsrv/getBenefactorById', {
+ 
+    const Benefactor_id = this.props.match.params.id;
+    fetch('http://utf.ut.ac.ir/index.php/wsrv/getBenefactorById', {
       method: 'POST',
       body: JSON.stringify({
         id: Benefactor_id
@@ -22,7 +22,7 @@ class BenefactorDetail extends Component {
     }).then(data => {
       console.log(data);
       this.setState({
-benefactor_detail : data
+        benefactor_detail : data
       })
     }).catch(error => {
       console.log(error);
