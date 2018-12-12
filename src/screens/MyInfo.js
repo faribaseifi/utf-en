@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import AuthContext from '../utils/authContext';
 import Axios from 'axios';
 
-export class Profile extends Component {
+export class MyInfo extends Component {
   static contextType = AuthContext;
   state = {
     data: null
@@ -44,7 +44,7 @@ export class Profile extends Component {
 
       					<ul className="my-account-nav">
       						<li className="sub-nav-title">Details</li>
-      						<li><a href="myinfo"><i className="sl sl-icon-docs"></i> My Info</a></li>
+      						<li><a href="my-properties.html"><i className="sl sl-icon-docs"></i> My Info</a></li>
       						<li><a href="submit-property.html"><i className="sl sl-icon-action-redo"></i> Submit New Property</a></li>
       					</ul>
 
@@ -145,4 +145,4 @@ export class Profile extends Component {
   }
 }
 
-export default Profile;
+export default MyInfo;
