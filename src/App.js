@@ -7,10 +7,6 @@ import Login from './screens/Login';
 import Profile from './screens/Profile';
 import AboutUni from './screens/AboutUni';
 import Branches from './screens/Branches';
-<<<<<<< HEAD
-import Payments from './screens/Payments';
-=======
->>>>>>> First commit
 import OrganizationalChart from './screens/OrganizationalChart';
 import FinancialReport from './screens/FinancialReport';
 import DonationsReport from './screens/DonationsReport';
@@ -20,10 +16,6 @@ import GoalsandGuidelines from './screens/GoalsandGuidelines';
 import BoardofTrustees from './screens/BoardofTrustees';
 import Inspector from './screens/Inspector';
 import FAQ from './screens/FAQ';
-<<<<<<< HEAD
-import CEO from './screens/CEO';
-=======
->>>>>>> First commit
 import SupportSus from './screens/SupportSus';
 import HelpActionProjs from './screens/HelpActionProjs';
 import JoinDonators from './screens/JoinDonators';
@@ -54,19 +46,11 @@ class App extends Component {
               fallback={() => <div style={{ height: '100%' }}>Loading</div>}>
               <Switch>
                 <Route path="/" exact component={withScripts(Homepage)} />
-<<<<<<< HEAD
-                <Route path="/blog/:id" component={withScripts(BlogPost)} />
-=======
                 <Route path="/blogPost/:id" component={withScripts(BlogPost)} />
->>>>>>> First commit
                 <Route path="/login" component={withScripts(Login)} />
                 <Route path="/AboutUni" component={AboutUni} />
                 <Route path="/Donator" component={Donator} />
                 <Route path="/Branches" component={Branches} />
-<<<<<<< HEAD
-                <Route path="/Payments" component={Payments} />
-=======
->>>>>>> First commit
                 <Route path="/OperationReport" component={OperationReport} />
                 <Route path="/DonationsReport" component={DonationsReport} />
                 <Route path="/FinancialReport" component={FinancialReport} />
@@ -78,10 +62,6 @@ class App extends Component {
                 <Route path="/Inspector" component={Inspector} />
                 <Route path="/ContactUs" component={ContactUs} />
                 <Route path="/FAQ" component={FAQ} />
-<<<<<<< HEAD
-                <Route path="/CEO" component={CEO} />
-=======
->>>>>>> First commit
                 <Route path="/JoinDonators" component={JoinDonators} />
                 <Route path="/DonateEdu" component={DonateEdu} />
                 <Route path="/SupportInt" component={SupportInt} />

@@ -5,11 +5,7 @@ export class Footer extends Component {
   render() {
     return (
             <div id="footer" className="dark">
-<<<<<<< HEAD
-        <div className="container">
-=======
         <div className="container-fluid">
->>>>>>> First commit
           <div className="row">
             <div className="col-md-5 col-sm-6">
 

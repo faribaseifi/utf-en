@@ -47,11 +47,7 @@ export class Header extends Component {
             <div className="left-side">
               <div id="logo">
                 <a href="index-2.html">
-<<<<<<< HEAD
-                  <img src="images/Capture.PNG" alt="" href="/" />
-=======
                   <img src="images/Capture.PNG" alt="" />
->>>>>>> First commit
                 </a>
               </div>
 
@@ -81,11 +77,7 @@ export class Header extends Component {
                       </NavItem>
 
                       <li>
-<<<<<<< HEAD
-                        <a style = {{fontSize: "13px"}} href="#">Reports</a>
-=======
                         <a href="elements.html">Reports</a>
->>>>>>> First commit
 
                         <ul>
                           <NavItem to="/OperationReport">
@@ -106,11 +98,7 @@ export class Header extends Component {
                         </ul>
                       </li>
                       <li>
-<<<<<<< HEAD
-                        <a style = {{fontSize: "13px"}} href="#">Elements</a>
-=======
                         <a href="#">Elements</a>
->>>>>>> First commit
                         <ul>
                           <NavItem to="/OrganizationalChart">
                             Organizational Chart
@@ -121,25 +109,16 @@ export class Header extends Component {
                           </NavItem>
 
                           <li>
-<<<<<<< HEAD
-                            <a style = {{fontSize: "13px"}} href="single-property-page-3.html">
-=======
                             <a href="single-property-page-3.html">
->>>>>>> First commit
                               Board of Directors
                             </a>
                             <ul>
                               <NavItem to="/Inspector">Inspector</NavItem>
                             </ul>
 
-<<<<<<< HEAD
-                            <NavItem to="/CEO">CEO</NavItem>
-
-=======
                             <li>
                               <a href="elements.html">CEO</a>
                             </li>
->>>>>>> First commit
                           </li>
                         </ul>
                       </li>
@@ -163,11 +142,7 @@ export class Header extends Component {
                     <a style = {{fontSize: "13px"}} href="#">How To</a>
                     <ul>
                       <li>
-<<<<<<< HEAD
-                        <a style = {{fontSize: "13px"}} href="#">Help with Student Loans</a>
-=======
                         <a href="blog.html">Help with Student Loans</a>
->>>>>>> First commit
                         <ul>
                           <NavItem to="/SupportSus">
                             Support Susceptible Students
