@@ -62,6 +62,9 @@ const ContactUs = lazy(() => import('./screens/ContactUs'));
 const Donator = lazy(() => import('./screens/Donator'));
 const BenefactorDetail = lazy(() => import('./screens/BenefactorDetail'));
 const SupporterDetail = lazy(() => import('./screens/SupporterDetail'));
+const MyInfo = lazy(() => import('./screens/MyInfo'));
+
+
 
 
 
@@ -98,6 +101,7 @@ class App extends Component {
                 <Route path="/ContactUs" component={ContactUs} />
                 <Route path="/FAQ" component={FAQ} />
                 <Route path="/CEO" component={CEO} />
+                <Route path="/MyInfo" component={MyInfo} />
                 <Route path="/JoinDonators" component={JoinDonators} />
                 <Route path="/DonateEdu" component={DonateEdu} />
                 <Route path="/SupportInt" component={SupportInt} />

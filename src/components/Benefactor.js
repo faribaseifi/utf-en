@@ -26,24 +26,9 @@ const Benefactor = ({khayer_id,khayer_name,khayer_pic}) => {
                 </h4>
               </div>
 
-              <ul className="agent-contact-details">
-                <li>
-                  <i className="sl sl-icon-call-in" />
-                  (123) 123-456
-                </li>
-                <li>
-                  <i className="fa fa-envelope-o " />
-                  <a href="#">
-                    <span
-                      className="__cf_email__"
-                      data-cfemail="f0849f9db09588919d809c95de939f9d">
-                      [email&nbsp;protected]
-                    </span>
-                  </a>
-                </li>
-              </ul>
+          
 
-            
+
               <div className="clearfix" />
             </div>
           </div>
