@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 
-
-const Benefactor = ({khayer_name,khayer_pic}) => {
+const Benefactor = ({khayer_id,khayer_name,khayer_pic}) => {
     return(
       <div
         className="carousel-item"
@@ -11,12 +11,12 @@ const Benefactor = ({khayer_name,khayer_pic}) => {
           style={{ position: 'absolute', left: '0%', top: '0px' }}>
           <div className="agent">
             <div className="agent-avatar">
-              <a href="agent-page.html">
+              <Link to={`/BenefactorDetail/${khayer_id}`}>
                 <img src={`https:/utf.ut.ac.ir/${khayer_pic}`} alt="" />
                 <span className="view-profile-btn">
                   View Profile
                 </span>
-              </a>
+              </Link>
             </div>
 
             <div className="agent-content">
@@ -43,28 +43,7 @@ const Benefactor = ({khayer_name,khayer_pic}) => {
                 </li>
               </ul>
 
-              <ul className="social-icons">
-                <li>
-                  <a className="facebook" href="#">
-                    <i className="icon-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a className="twitter" href="#">
-                    <i className="icon-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a className="gplus" href="#">
-                    <i className="icon-gplus" />
-                  </a>
-                </li>
-                <li>
-                  <a className="linkedin" href="#">
-                    <i className="icon-linkedin" />
-                  </a>
-                </li>
-              </ul>
+            
               <div className="clearfix" />
             </div>
           </div>
