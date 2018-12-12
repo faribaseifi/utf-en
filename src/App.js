@@ -63,6 +63,12 @@ const Donator = lazy(() => import('./screens/Donator'));
 const BenefactorDetail = lazy(() => import('./screens/BenefactorDetail'));
 const SupporterDetail = lazy(() => import('./screens/SupporterDetail'));
 const MyInfo = lazy(() => import('./screens/MyInfo'));
+const PaymentsHis = lazy(() => import('./screens/PaymentsHis'));
+const PaymentsRem = lazy(() => import('./screens/PaymentsRem'));
+const StudentFunds = lazy(() => import('./screens/StudentFunds'));
+const ClickForRes = lazy(() => import('./screens/ClickForRes'));
+
+
 
 
 
@@ -102,6 +108,14 @@ class App extends Component {
                 <Route path="/FAQ" component={FAQ} />
                 <Route path="/CEO" component={CEO} />
                 <Route path="/MyInfo" component={MyInfo} />
+                <Route path="/StudentFunds" component={StudentFunds} />
+                <Route path="/PaymentsRem" component={PaymentsRem} />
+                <Route path="/PaymentsHis" component={PaymentsHis} />
+                <Route path="/ClickForRes" component={ClickForRes} />
+
+
+
+
                 <Route path="/JoinDonators" component={JoinDonators} />
                 <Route path="/DonateEdu" component={DonateEdu} />
                 <Route path="/SupportInt" component={SupportInt} />
