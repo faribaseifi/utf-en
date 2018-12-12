@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import AuthContext from '../utils/authContext';
 import Axios from 'axios';
+import ProfMenu from '../components/ProfMenu.js';
+
 
 export class Profile extends Component {
   static contextType = AuthContext;
@@ -31,31 +33,11 @@ export class Profile extends Component {
       	<div className="row">
 
 
-      		<div className="col-md-4">
-      			<div className="sidebar left">
 
-      				<div className="my-account-nav-container">
+<ProfMenu/>
 
-      					<ul className="my-account-nav">
-      						<li className="sub-nav-title">Manage Account</li>
-      						<li><a href="/profile" className="current"><i className="sl sl-icon-user"></i> My Profile</a></li>
-      						<li><a href="/Payments"><i className="sl sl-icon-star"></i> Payments (Donations)</a></li>
-      					</ul>
 
-      					<ul className="my-account-nav">
-      						<li className="sub-nav-title">Details</li>
-      						<li><a href="myinfo"><i className="sl sl-icon-docs"></i> My Info</a></li>
-      						<li><a href="submit-property.html"><i className="sl sl-icon-action-redo"></i> Submit New Property</a></li>
-      					</ul>
 
-      					<ul className="my-account-nav">
-      						<li><a href="/ChangePass"><i className="sl sl-icon-lock"></i> Change Password</a></li>
-      					</ul>
-
-      				</div>
-
-      			</div>
-      		</div>
 
       		<div className="col-md-8">
       			<div className="row">
