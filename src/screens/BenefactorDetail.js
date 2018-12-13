@@ -11,7 +11,7 @@ class BenefactorDetail extends Component {
 
   componentDidMount(){
  
-    const Benefactor_id = this.props.match.params.id;
+    const Benefactor_id = this.props.match.params.benefactor_id;
     fetch('http://utf.ut.ac.ir/index.php/wsrv/getBenefactorById', {
       method: 'POST',
       body: JSON.stringify({

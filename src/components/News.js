@@ -4,7 +4,7 @@ const News = ({news_id,news_thumb,news_title,news_short_text})=>{
     return(
         <div className="col-md-4">
             <div key={news_id} className="blog-post">
-                <Link to={`/blogPost/${news_id}`} className="post-img">
+                <Link to={`/BlogPost/${news_id}`} className="post-img">
                     <img src={`http://utf.ut.ac.ir/${news_thumb}`} alt=""/>
                 </Link>
                 <div className="post-content">

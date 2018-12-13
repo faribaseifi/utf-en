@@ -45,7 +45,6 @@ class Homepage extends Component {
                 return response.json();
             })
             .then(data => {
-                console.log(data);
                 this.setState({supporters: data});
             })
             .catch(err => {
