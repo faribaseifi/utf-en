@@ -43,7 +43,7 @@ render(){
     			<div className="agent agent-page agency long-content">
 
     				<div className="agent-avatar">
-    					<img src="images/asd.jpg" alt=""></img>
+    					<img src="images/aboutPic.jpg" alt=""></img>
     				</div>
 
     				<div className="agent-content">
