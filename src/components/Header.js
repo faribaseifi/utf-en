@@ -178,18 +178,16 @@ export class Header extends Component {
             <div className="right-side">
               <div className="header-widget">
                 {this.context.userIsLoggedIn ? (
-                  <button
-                    onClick={this.context.removeToken}
-                    className="sign-in">
-                    Log Out
-                  </button>
+
+<a onClick={this.context.removeToken} class="button border sign-in margin-right-10">
+Log Out</a>
                 ) : (
                   <Link to="/login" className="sign-in">
                     <i className="fa fa-user" /> Log In / Register
                   </Link>
                 )}
-                <a href="submit-property.html" className="button border">
-                  Submit Property
+                <a href="/profile" className="button border">
+                  UserName
                 </a>
               </div>
             </div>

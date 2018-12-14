@@ -26,7 +26,7 @@ const Benefactor = ({khayer_id,khayer_name,khayer_pic}) => {
                 </h4>
               </div>
 
-          
+
 
 
               <div className="clearfix" />
