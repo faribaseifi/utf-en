@@ -70,6 +70,7 @@ const ClickForRes = lazy(() => import('./screens/ClickForRes'));
 const SupportOrg = lazy(() => import('./screens/SupportOrg'));
 const Need = lazy(() => import('./screens/Need'));
 const ReportIndex = lazy(() => import('./screens/ReportIndex'));
+const Report1 = lazy(() => import('./screens/Report1'));
 
 
 
@@ -94,6 +95,8 @@ class App extends Component {
                 <Route path="/DonationsReport" component={DonationsReport} />
                 <Route path="/FinancialReport" component={FinancialReport} />
                 <Route path="/ReportIndex" component={ReportIndex} />
+                <Route path="/Report1" component={Report1} />
+
 
 
                 <Route path="/Need" component={Need} />
