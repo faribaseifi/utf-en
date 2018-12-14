@@ -67,12 +67,9 @@ const PaymentsHis = lazy(() => import('./screens/PaymentsHis'));
 const PaymentsRem = lazy(() => import('./screens/PaymentsRem'));
 const StudentFunds = lazy(() => import('./screens/StudentFunds'));
 const ClickForRes = lazy(() => import('./screens/ClickForRes'));
-
-
-
-
-
-
+const SupportOrg = lazy(() => import('./screens/SupportOrg'));
+const Need = lazy(() => import('./screens/Need'));
+const ReportIndex = lazy(() => import('./screens/ReportIndex'));
 
 
 
@@ -92,29 +89,35 @@ class App extends Component {
                 <Route path="/AboutUni" component={AboutUni} />
                 <Route path="/Donator" component={Donator} />
                 <Route path="/Branches" component={Branches} />
-                <Route path="/Payments" component={Payments} />
+                <PrivateRoute path="/Payments" component={Payments} />
                 <Route path="/OperationReport" component={OperationReport} />
                 <Route path="/DonationsReport" component={DonationsReport} />
                 <Route path="/FinancialReport" component={FinancialReport} />
+                <Route path="/ReportIndex" component={ReportIndex} />
+
+
+                <Route path="/Need" component={Need} />
+
+
+
+
                 <Route
                   path="/OrganizationalChart"
                   component={OrganizationalChart}
                 />
                 <Route path="/BoardofTrustees" component={BoardofTrustees} />
-                <Route path="/BenefactorDetail/:id" component={BenefactorDetail} />
+                <Route path="/BenefactorDetail" component={BenefactorDetail} />
                 <Route path="/SupporterDetail" component={SupporterDetail} />
                 <Route path="/Inspector" component={Inspector} />
                 <Route path="/ContactUs" component={ContactUs} />
                 <Route path="/FAQ" component={FAQ} />
                 <Route path="/CEO" component={CEO} />
-                <Route path="/MyInfo" component={MyInfo} />
+                <PrivateRoute path="/MyInfo" component={MyInfo} />
                 <Route path="/StudentFunds" component={StudentFunds} />
-                <Route path="/PaymentsRem" component={PaymentsRem} />
-                <Route path="/PaymentsHis" component={PaymentsHis} />
+                <PrivateRoute path="/PaymentsRem" component={PaymentsRem} />
+                <PrivateRoute path="/PaymentsHis" component={PaymentsHis} />
                 <Route path="/ClickForRes" component={ClickForRes} />
-
-
-
+                <Route path="/SupportOrg" component={SupportOrg} />
 
                 <Route path="/JoinDonators" component={JoinDonators} />
                 <Route path="/DonateEdu" component={DonateEdu} />

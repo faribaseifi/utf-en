@@ -45,7 +45,6 @@ class Homepage extends Component {
                 return response.json();
             })
             .then(data => {
-                console.log(data);
                 this.setState({supporters: data});
             })
             .catch(err => {
@@ -113,7 +112,7 @@ class Homepage extends Component {
                     </div>
 
                     <div
-                        data-background-image="images/home-slider-02.jpg"
+                        data-background-image="images/home-slider-04.jpg"
                         className="item">
                         <div className="container">
                             <div className="row">
@@ -126,7 +125,7 @@ class Homepage extends Component {
 
                                             <div className="home-slider-title">
                                                 <h3>
-                                                    <a href="single-property-page-1.html">
+                                                    <a href="/SupportOrg">
                                                         Tehran University
                                                     </a>
                                                 </h3>
@@ -170,7 +169,7 @@ class Homepage extends Component {
                     </div>
 
                     <div
-                        data-background-image="images/home-slider-04.jpg"
+                        data-background-image="images/home-slider-02.jpg"
                         className="item">
                         <div className="container">
                             <div className="row">

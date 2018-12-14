@@ -13,6 +13,7 @@ class BlogPost extends Component {
 
   componentDidMount() {
     const news_id = this.props.match.params.id;
+    
     fetch('http://utf.ut.ac.ir/index.php/wsrv/getNewsById', {
       method: 'POST',
       body: JSON.stringify({
@@ -21,7 +22,8 @@ class BlogPost extends Component {
     }).then(res => {
       return res.json();
     }).then(data => {
-      this.setState({ news: data[0] },()=>{
+      console.log(data);
+      this.setState({ news: data },()=>{
         loadScripts(scripts);
       })
     }).catch(error => {

@@ -1,9 +1,11 @@
 import React, { Component , Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import NavItem from '../components/NavItem'
+import { loadScripts, scripts } from '../utils/withScripts';
 
 
 class JoinDonators extends Component {
+
 render(){
   return (
     <Fragment>
@@ -56,9 +58,9 @@ render(){
 
 
                     <h3 className="text-center">Founds</h3>
-                    <div class="col-md-12">
+                    <div className="col-md-12">
 
-<div class="col-md-8">
+<div className="col-md-8">
 
 
                     <p>The charity deposit account was opened in the past year during an Eftar(breaking ones fast) banquet. The charity deposit account forms were distributed among the guests and 433 forms were filled out.  There, the benevolent donors, staffs, retired personnel and students of the University of Tehran voiced their readiness within the framework of cash aids and non-cash aids and cooperative assistances. At present, 8 people have helped with the deposit account within the framework of assistance, 107 people within the framework of non-cash aids, and 148 students, faculty members, staff, and retired personnel of UT within the framework of cooperative assistance. The total payment in cash to the account is 336 million Tomans.  The purpose of establishment of this account is to help with the needy and talented students of UT, paying interest-free loan to the deserving students of UT , helping with the development of the activities of the Foundation and meeting the public goals mentioned in the constitution and other suggested cases.</p>
@@ -68,7 +70,7 @@ render(){
 <br/>
 
 
-<div class="col-md-4">
+<div className="col-md-4">
 
     <div className="">
       <a href="#" className="button border block-btns">Border Button</a>

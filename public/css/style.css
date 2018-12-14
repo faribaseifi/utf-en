@@ -12066,3 +12066,78 @@ font-size: 16px;
 cursor: pointer;
 text-align: center;
 }
+
+
+
+
+
+
+
+
+.post-imgn {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.post-imgn img {
+	width: 100%;
+	border-radius: 3px 3px 0 0;
+}
+
+.post-imgn:after {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+	content: "help us become more capable of helping those in need, we need to reach out for them before they ask for it";
+	color: black;
+	size: 20px;
+	text-align: center;
+padding-top: 20px;
+	z-index: 9;
+	opacity: 0;
+	background: #66676b;
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 40%, #66676b);
+	transition: opacity 0.4s;
+	border-radius: 3px 3px 0 0;
+}
+
+.post-imgn:hover:after {
+	opacity: 0.8;
+}
+
+
+/* Post Hover Icon */
+.post-imgn:before {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	display: block;
+	top: 50%;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	text-align: center;
+	content: "";
+	z-index: 119;
+	transition: 0.3s;
+	transform: translateY(-80%);
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #66676b;
+	background-image: url(../images/plus-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 50%
+}
+
+.post-imgn:hover:before {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(-50%);
+}
