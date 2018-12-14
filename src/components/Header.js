@@ -46,7 +46,7 @@ export class Header extends Component {
           <div className="container-fluid">
             <div className="left-side">
               <div id="logo">
-                <a href="index-2.html">
+                <a href="/">
                   <img src="images/Capture.PNG" alt="" href="/" />
                 </a>
               </div>
