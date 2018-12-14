@@ -94,7 +94,7 @@ class Homepage extends Component {
 
                                             <div className="home-slider-title">
                                                 <h3>
-                                                    <a href="single-property-page-1.html">
+                                                    <a href="/studentfunds">
                                                         only for top students
                                                     </a>
                                                 </h3>
