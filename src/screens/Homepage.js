@@ -234,7 +234,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Books-2"/>
                                         <div className="icon-links">
-                                            <a href="#">
+                                            <a href="/ReportIndex">
                                                 Performance Report
                                             </a>
                                         </div>
@@ -249,7 +249,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Check"/>
                                         <div className="icon-links">
-                                            <a href="#">
+                                            <a href="/need">
                                                 University requirements
                                             </a>
                                         </div>
@@ -264,7 +264,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Student-MaleFemale"/>
                                         <div className="icon-links">
-                                            <a href="#">
+                                            <a href="/studentfunds">
                                                 Student scholarship
                                             </a>
                                         </div>
@@ -279,7 +279,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Handshake"/>
                                         <div className="icon-links">
-                                            <a href="#">
+                                            <a href="/DonateviaTime">
                                                 Spiritual contributions
                                             </a>
                                         </div>
