@@ -26,7 +26,7 @@ class SuporterDetail extends Component {
       console.log(error);
     })
   }
-  
+
 render(){
   const supporter_detail = this.state.supporter_detail;
   return (
@@ -87,7 +87,7 @@ render(){
     ) : null
   }
 
-   
+
   </Fragment>
 
 

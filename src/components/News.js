@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
 const News = ({news_id,news_thumb,news_title,news_short_text})=>{
+    const news_t = news_title;
     return(
         <div className="col-md-4">
             <div key={news_id} className="blog-post">
@@ -9,11 +10,22 @@ const News = ({news_id,news_thumb,news_title,news_short_text})=>{
                 </Link>
                 <div className="post-content">
                     <h3 style={{height:"85px"}}>
-                        <a href="#">{news_title}</a>
+                    <Link to={`/BlogPost/${news_id}`} className="read-more">
+
+<a href="">
+{
+news_t.substr(0,55)
+} ...
+
+
+</a>
+
+
+                        </Link>
                     </h3>
                     <p style={{height: "168px"}}>{news_short_text}</p>
 
-                    <Link to={`/blog/${news_id}`} className="read-more">
+                    <Link to={`/BlogPost/${news_id}`} className="read-more">
                         Read More <i className="fa fa-angle-right"/>
                     </Link>
                 </div>

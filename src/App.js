@@ -85,7 +85,7 @@ class App extends Component {
               fallback={() => <div style={{ height: '100%' }}>Loading</div>}>
               <Switch>
                 <Route path="/" exact component={withScripts(Homepage)} />
-                <Route path="/blog/:id" component={withScripts(BlogPost)} />
+                <Route path="/BlogPost/:id" component={withScripts(BlogPost)} />
                 <Route path="/login" component={withScripts(Login)} />
                 <Route path="/AboutUni" component={AboutUni} />
                 <Route path="/Donator" component={Donator} />
@@ -109,8 +109,8 @@ class App extends Component {
                   component={OrganizationalChart}
                 />
                 <Route path="/BoardofTrustees" component={BoardofTrustees} />
-                <Route path="/BenefactorDetail" component={BenefactorDetail} />
-                <Route path="/SupporterDetail" component={SupporterDetail} />
+                <Route path="/BenefactorDetail/:benefactor_id" component={BenefactorDetail} />
+                <Route path="/SupporterDetail/:supporter_id" component={SupporterDetail} />
                 <Route path="/Inspector" component={Inspector} />
                 <Route path="/ContactUs" component={ContactUs} />
                 <Route path="/FAQ" component={FAQ} />
