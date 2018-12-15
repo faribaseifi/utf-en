@@ -57,8 +57,8 @@ render(){
     					<div className="icon-container">
     						<i className="im im-icon-Office"></i>
     						<div className="icon-links">
-    							<a href="listings-grid-standard-with-sidebar.html">For Sale</a>
-    							<a href="listings-grid-standard-with-sidebar.html">For Rent</a>
+    							<a href="#">For Sale</a>
+    							<a href="#">For Rent</a>
     						</div>
     					</div>
 
@@ -73,8 +73,8 @@ render(){
     					<div className="icon-container">
     						<i className="im im-icon-Home-2"></i>
     						<div className="icon-links">
-    							<a href="listings-grid-standard-with-sidebar.html">For Sale</a>
-    							<a href="listings-grid-standard-with-sidebar.html">For Rent</a>
+    							<a href="#">For Sale</a>
+    							<a href="#">For Rent</a>
     						</div>
     					</div>
 
@@ -89,8 +89,8 @@ render(){
     					<div className="icon-container">
     						<i className="im im-icon-Car-3"></i>
     						<div className="icon-links">
-    							<a href="listings-grid-standard-with-sidebar.html">For Sale</a>
-    							<a href="listings-grid-standard-with-sidebar.html">For Rent</a>
+    							<a href="#">For Sale</a>
+    							<a href="#">For Rent</a>
     						</div>
     					</div>
 
@@ -105,8 +105,8 @@ render(){
     					<div className="icon-container">
     						<i className="im im-icon-Clothing-Store"></i>
     						<div className="icon-links">
-    							<a href="listings-grid-standard-with-sidebar.html">For Sale</a>
-    							<a href="listings-grid-standard-with-sidebar.html">For Rent</a>
+    							<a href="#">For Sale</a>
+    							<a href="#">For Rent</a>
     						</div>
     					</div>
 

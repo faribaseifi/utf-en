@@ -100,7 +100,7 @@ class Homepage extends Component {
                                             </div>
 
                                             <a
-                                                href="single-property-page-1.html"
+                                                href="#"
                                                 className="read-more">
                                                 View Details <i className="fa fa-angle-right"/>
                                             </a>
@@ -132,7 +132,7 @@ class Homepage extends Component {
                                             </div>
 
                                             <a
-                                                href="single-property-page-1.html"
+                                                href="#"
                                                 className="read-more">
                                                 View Details <i className="fa fa-angle-right"/>
                                             </a>
@@ -153,12 +153,12 @@ class Homepage extends Component {
                                         <div className="home-slider-desc">
                                             <div className="home-slider-title">
                                                 <h3>
-                                                    <a href="single-property-page-1.html"/>
+                                                    <a href="#"/>
                                                 </h3>
                                             </div>
 
                                             <a
-                                                href="single-property-page-1.html"
+                                                href="#"
                                                 className="read-more"
                                             />
                                         </div>
@@ -178,12 +178,12 @@ class Homepage extends Component {
                                         <div className="home-slider-desc">
                                             <div className="home-slider-title">
                                                 <h3>
-                                                    <a href="single-property-page-1.html"/>
+                                                    <a href="#"/>
                                                 </h3>
                                             </div>
 
                                             <a
-                                                href="single-property-page-1.html"
+                                                href="#"
                                                 className="read-more"
                                             />
                                         </div>
@@ -203,12 +203,12 @@ class Homepage extends Component {
                                         <div className="home-slider-desc">
                                             <div className="home-slider-title">
                                                 <h3>
-                                                    <a href="single-property-page-1.html"/>
+                                                    <a href="#"/>
                                                 </h3>
                                             </div>
 
                                             <a
-                                                href="single-property-page-1.html"
+                                                href="#"
                                                 className="read-more"
                                             />
                                         </div>
@@ -234,7 +234,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Books-2"/>
                                         <div className="icon-links">
-                                            <a href="listings-grid-standard-with-sidebar.html">
+                                            <a href="#">
                                                 Performance Report
                                             </a>
                                         </div>
@@ -249,7 +249,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Check"/>
                                         <div className="icon-links">
-                                            <a href="listings-grid-standard-with-sidebar.html">
+                                            <a href="#">
                                                 University requirements
                                             </a>
                                         </div>
@@ -264,7 +264,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Student-MaleFemale"/>
                                         <div className="icon-links">
-                                            <a href="listings-grid-standard-with-sidebar.html">
+                                            <a href="#">
                                                 Student scholarship
                                             </a>
                                         </div>
@@ -279,7 +279,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Handshake"/>
                                         <div className="icon-links">
-                                            <a href="listings-grid-standard-with-sidebar.html">
+                                            <a href="#">
                                                 Spiritual contributions
                                             </a>
                                         </div>

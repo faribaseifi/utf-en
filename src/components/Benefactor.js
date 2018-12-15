@@ -22,7 +22,9 @@ const Benefactor = ({khayer_id,khayer_name,khayer_pic}) => {
             <div className="agent-content">
               <div className="agent-name">
                 <h4>
-                  <a href="agent-page.html">{khayer_name}</a>
+                <Link to={`/BenefactorDetail/${khayer_id}`}>
+              {khayer_name}
+                  </Link>
                 </h4>
               </div>
 

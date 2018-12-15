@@ -77,7 +77,7 @@ export class Header extends Component {
                       </NavItem>
 
                       <li>
-                        <a style = {{fontSize: "13px"}} href="#">Reports</a>
+                        <a style = {{fontSize: "13px"}} >Reports</a>
 
                         <ul>
                           <NavItem to="/OperationReport">
@@ -98,7 +98,7 @@ export class Header extends Component {
                         </ul>
                       </li>
                       <li>
-                        <a style = {{fontSize: "13px"}} href="#">Elements</a>
+                        <a style = {{fontSize: "13px"}} >Elements</a>
                         <ul>
                           <NavItem to="/OrganizationalChart">
                             Organizational Chart
@@ -109,7 +109,7 @@ export class Header extends Component {
                           </NavItem>
 
                           <li>
-                            <a style = {{fontSize: "13px"}} href="single-property-page-3.html">
+                            <a style = {{fontSize: "13px"}} >
                               Board of Directors
                             </a>
                             <ul>
@@ -141,7 +141,7 @@ export class Header extends Component {
                     <a style = {{fontSize: "13px"}} href="#">How To</a>
                     <ul>
                       <li>
-                        <a style = {{fontSize: "13px"}} href="#">Help with Student Loans</a>
+                        <a style = {{fontSize: "13px"}}>Help with Student Loans</a>
                         <ul>
                           <NavItem to="/SupportSus">
                             Support Susceptible Students
