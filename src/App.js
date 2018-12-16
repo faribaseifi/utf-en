@@ -71,6 +71,16 @@ const SupportOrg = lazy(() => import('./screens/SupportOrg'));
 const Need = lazy(() => import('./screens/Need'));
 const ReportIndex = lazy(() => import('./screens/ReportIndex'));
 const Report1 = lazy(() => import('./screens/Report1'));
+const Report2 = lazy(() => import('./screens/Report2'));
+const Rep3 = lazy(() => import('./screens/Rep3'));
+const Rep4 = lazy(() => import('./screens/Rep4'));
+const Repo5 = lazy(() => import('./screens/Repo5'));
+const Repo6 = lazy(() => import('./screens/Repo6'));
+
+
+
+
+
 
 
 
@@ -96,6 +106,14 @@ class App extends Component {
                 <Route path="/FinancialReport" component={FinancialReport} />
                 <Route path="/ReportIndex" component={ReportIndex} />
                 <Route path="/Report1" component={Report1} />
+                <Route path="/Report2" component={Report2} />
+                <Route path="/Rep3" component={Rep3} />
+                <Route path="/Rep4" component={Rep4} />
+                <Route path="/Repo5" component={Repo5} />
+                <Route path="/Repo6" component={Repo6} />
+
+
+
 
 
 
