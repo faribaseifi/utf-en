@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export const loadScripts = scripts => {
   scripts.forEach(s => {
     const script = document.createElement('script');
-    script.src = `${process.env.PUBLIC_URL}${s}`;
+    script.src = `${process.env.PUBLIC_URL}/${s}`;
     script.async = false;
     document.body.appendChild(script);
   });

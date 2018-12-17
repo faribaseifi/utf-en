@@ -15,6 +15,7 @@ class Homepage extends Component {
         this.fetchNews();
         this.fetchBenefactors();
         this.fetchSupporters();
+        console.log('public url: ', process.env.PUBLIC_URL)
     }
 
     fetchBenefactors = () => {
@@ -234,9 +235,9 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Books-2"/>
                                         <div className="icon-links">
-                                            <a href="/ReportIndex">
+                                            <Link to="/en/ReportIndex">
                                                 Performance Report
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
 
@@ -249,9 +250,9 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Check"/>
                                         <div className="icon-links">
-                                            <a href="/need">
+                                            <Link to="/en/need">
                                                 University requirements
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
 
@@ -264,9 +265,9 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Student-MaleFemale"/>
                                         <div className="icon-links">
-                                            <a href="/studentfunds">
+                                            <Link to="/en/studentfunds">
                                                 Student scholarship
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
 
@@ -279,9 +280,9 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Handshake"/>
                                         <div className="icon-links">
-                                            <a href="/DonateviaTime">
+                                            <Link to="/en/DonateviaTime">
                                                 Spiritual contributions
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
 
@@ -311,9 +312,10 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Mail-Money"/>
                                     </div>
-
-                                    <h3>Cash Donations (Fundino)</h3>
-                                    <p>learn more...</p>
+                                    <Link to="https://www.fundino.com/utf/home">
+                                        <h3>Cash Donations (Fundino)</h3>
+                                        <p>learn more...</p>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -322,9 +324,10 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Money-2"/>
                                     </div>
-
-                                    <h3>Help With Financial Tasks</h3>
-                                    <p>learn more...</p>
+                                    <a href="#">
+                                        <h3>Help With Financial Tasks</h3>
+                                        <p>learn more...</p>
+                                    </a>
                                 </div>
                             </div>
 
@@ -333,9 +336,10 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-University-2"/>
                                     </div>
-
-                                    <h3>University of Tehran</h3>
-                                    <p>Main WebSite</p>
+                                    <Link to="https://ut.ac.ir">
+                                        <h3>University of Tehran</h3>
+                                        <p>Main WebSite</p>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

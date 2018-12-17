@@ -2,6 +2,7 @@
   "name": "utf",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://utf.ut.ac.ir/en/",
   "dependencies": {
     "axios": "^0.18.0",
     "rc-menu": "^7.4.20",
