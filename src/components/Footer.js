@@ -12,32 +12,32 @@ export class Footer extends Component {
               <h4>University Foundation Chart</h4>
               <ul className="footer-links small h6">
                 <li>
-                  <a href="/OrganizationalChart">Organizational Chart</a>
+                  <a href="/en/OrganizationalChart">Organizational Chart</a>
                 </li>
                 <li>
-                  <a href="/BoardofTrustees">Board Of Trustees</a>
+                  <a href="/en/BoardofTrustees">Board Of Trustees</a>
                 </li>
                 <li>
-                  <a href="/Inspector">Board Of Directors</a>
+                  <a href="/en/Inspector">Board Of Directors</a>
                 </li>
                 <li>
-                  <a href="/CEO">CEO</a>
+                  <a href="/en/CEO">CEO</a>
                 </li>
 
                 <li>
-                  <a href="/faq">FAQ</a>
+                  <a href="/en/faq">FAQ</a>
                 </li>
                 <li>
-                  <a href="/blog">Blog</a>
+                  <a href="/en/blog">Blog</a>
                 </li>
                 <li>
                   <a href="#">Donators</a>
                 </li>
                 <li>
-                  <a href="/JoinDonators">How to</a>
+                  <a href="/en/JoinDonators">How to</a>
                 </li>
                 <li>
-                  <a href="/ContactUs">Contact</a>
+                  <a href="/en/ContactUs">Contact</a>
                 </li>
 
               </ul>
