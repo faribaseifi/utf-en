@@ -66,6 +66,11 @@ render(){
         University of Tehranhas been reconstructed by the efforts of Dr. Mosallanejad and the Cultural foundation sector ofDr.mosallanejad. I wish him peace and health and so too wish peace and health to all the benefactors of the University of Tehran.”
 
       						</blockquote>
+
+                  <div className="text-center">
+                    <img className="rounded mx-auto d-block" src="images/report1-3.png" alt=""/>
+                  </div>
+
       					</div>
 
       					<p>In continuation of the meeting, Dr. Abbas Mosallanejad gave a speech: </p>
