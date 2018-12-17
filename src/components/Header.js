@@ -61,18 +61,18 @@ export class Header extends Component {
 
               <nav id="navigation" className="style-1">
                 <ul id="responsive">
-                  <NavItem exact={true} to="/">
+                  <NavItem exact={true} to="/en/">
                     Home
                   </NavItem>
 
                   <li>
                     <a style = {{fontSize: "13px"}} href="#">About</a>
                     <ul>
-                      <NavItem to="/AboutUni">about university</NavItem>
+                      <NavItem to="/en/AboutUni">about university</NavItem>
 
-                      <NavItem to="/Donator">Donators</NavItem>
+                      <NavItem to="/en/Donator">Donators</NavItem>
 
-                      <NavItem to="/GoalsandGuidelines">
+                      <NavItem to="/en/GoalsandGuidelines">
                         Goals and Guidelines
                       </NavItem>
 
@@ -80,19 +80,19 @@ export class Header extends Component {
                         <a style = {{fontSize: "13px"}} >Reports</a>
 
                         <ul>
-                          <NavItem to="/OperationReport">
+                          <NavItem to="/en/OperationReport">
                             Operation Report
                           </NavItem>
 
-                          <NavItem to="/DonationsReport">
+                          <NavItem to="/en/DonationsReport">
                             Donations Report
                           </NavItem>
 
-                          <NavItem to="/InspectorsReport">
+                          <NavItem to="/en/InspectorsReport">
                             Inspectors Report
                           </NavItem>
 
-                          <NavItem  to="/FinancialReport">
+                          <NavItem  to="/en/FinancialReport">
                             Financial Report
                           </NavItem>
                         </ul>
@@ -100,11 +100,11 @@ export class Header extends Component {
                       <li>
                         <a style = {{fontSize: "13px"}} >Elements</a>
                         <ul>
-                          <NavItem to="/OrganizationalChart">
+                          <NavItem to="/en/OrganizationalChart">
                             Organizational Chart
                           </NavItem>
 
-                          <NavItem to="/BoardofTrustees">
+                          <NavItem to="/en/BoardofTrustees">
                             Board of Trustees
                           </NavItem>
 
@@ -113,25 +113,25 @@ export class Header extends Component {
                               Board of Directors
                             </a>
                             <ul>
-                              <NavItem to="/Inspector">Inspector</NavItem>
+                              <NavItem to="/en/Inspector">Inspector</NavItem>
                             </ul>
 
-                            <NavItem to="/CEO">CEO</NavItem>
+                            <NavItem to="/en/CEO">CEO</NavItem>
 
                           </li>
                         </ul>
                       </li>
 
-                      <NavItem to="/FAQ">FAQ</NavItem>
+                      <NavItem to="/en/FAQ">FAQ</NavItem>
                     </ul>
                   </li>
 
                   <li>
                     <a style = {{fontSize: "13px"}} href="#">Donate Now!</a>
                     <ul>
-                      <NavItem to="/BecomeaDonator">Become a Donator</NavItem>
+                      <NavItem to="/en/BecomeaDonator">Become a Donator</NavItem>
 
-                      <NavItem to="/DonateviaTime">
+                      <NavItem to="/en/DonateviaTime">
                         Donate via Time/Skill
                       </NavItem>
                     </ul>
@@ -143,33 +143,33 @@ export class Header extends Component {
                       <li>
                         <a style = {{fontSize: "13px"}}>Help with Student Loans</a>
                         <ul>
-                          <NavItem to="/SupportSus">
+                          <NavItem to="/en/SupportSus">
                             Support Susceptible Students
                           </NavItem>
 
-                          <NavItem to="/SupportInt">
+                          <NavItem to="/en/SupportInt">
                             Support International Susceptible Students
                           </NavItem>
                         </ul>
                       </li>
 
-                      <NavItem to="/HelpActionProjs">
+                      <NavItem to="/en/HelpActionProjs">
                         Help with Projects in Action
                       </NavItem>
 
-                      <NavItem to="/JoinDonators">
+                      <NavItem to="/en/JoinDonators">
                         Join Donators Community
                       </NavItem>
 
-                      <NavItem to="/DonateEdu">
+                      <NavItem to="/en/DonateEdu">
                         Donate Educational Products
                       </NavItem>
                     </ul>
                   </li>
 
-                  <NavItem to="/Branches">Branches</NavItem>
+                  <NavItem to="/en/Branches">Branches</NavItem>
 
-                  <NavItem to="/ContactUs">Contact Us</NavItem>
+                  <NavItem to="/en/ContactUs">Contact Us</NavItem>
                 </ul>
               </nav>
               <div className="clearfix" />
@@ -182,7 +182,7 @@ export class Header extends Component {
 <a onClick={this.context.removeToken} class="button border sign-in margin-right-10">
 Log Out</a>
                 ) : (
-                  <Link to="/login" className="sign-in">
+                  <Link to="/en/login" className="sign-in">
                     <i className="fa fa-user" /> Log In / Register
                   </Link>
                 )}

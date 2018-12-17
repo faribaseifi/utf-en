@@ -47,7 +47,7 @@ render(){
 
               <nav id="breadcrumbs">
                 <ul>
-                  <NavItem to="/">Homepage</NavItem>
+                  <NavItem to="/en/">Homepage</NavItem>
                   <NavItem to="#">SupporterDetail</NavItem>
                 </ul>
               </nav>
