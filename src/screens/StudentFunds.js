@@ -1,10 +1,11 @@
 import React, { Component , Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import NavItem from '../components/NavItem'
+import Modal from '../components/Modal'
 import { loadScripts, scripts } from '../utils/withScripts';
 
 
-class JoinDonators extends Component {
+class StudentFunds extends Component {
 
 render(){
   return (
@@ -71,18 +72,17 @@ render(){
 
 
 <div className="col-md-4">
-
     <div className="">
-      <a href="#" className="button border block-btns">Border Button</a>
+      <Modal/>
     </div>
     <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
+      <Modal/>
     </div>
     <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
+      <Modal/>
     </div>
-    <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
+    <div id="modaly" classNames="">
+      <Modal/>
     </div>
 
 
@@ -124,4 +124,4 @@ render(){
 }
 }
 
-export default JoinDonators;
+export default StudentFunds;
