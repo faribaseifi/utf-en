@@ -88,66 +88,66 @@ class App extends Component {
   render() {
     return (
       <AuthProvider>
-        <Router>
+        <Router basename="/en">
           <ScrollToTop>
             <Header />
             <Suspense
               fallback={() => <div style={{ height: '100%' }}>Loading</div>}>
               <Switch>
-                <Route path="/en/" exact component={withScripts(Homepage)} />
-                <Route path="/en/BlogPost/:id" component={withScripts(BlogPost)} />
-                <Route path="/en/login" component={withScripts(Login)} />
-                <Route path="/en/AboutUni" component={AboutUni} />
-                <Route path="/en/Donator" component={Donator} />
-                <Route path="/en/Branches" component={Branches} />
-                <PrivateRoute path="/en/Payments" component={Payments} />
-                <Route path="/en/OperationReport" component={OperationReport} />
-                <Route path="/en/DonationsReport" component={DonationsReport} />
-                <Route path="/en/FinancialReport" component={FinancialReport} />
-                <Route path="/en/ReportIndex" component={ReportIndex} />
-                <Route path="/en/Report1" component={Report1} />
-                <Route path="/en/Report2" component={Report2} />
-                <Route path="/en/Rep3" component={Rep3} />
-                <Route path="/en/Rep4" component={Rep4} />
-                <Route path="/en/Repo5" component={Repo5} />
-                <Route path="/en/Repo6" component={Repo6} />
+                <Route path="/" exact component={withScripts(Homepage)} />
+                <Route path="/BlogPost/:id" component={withScripts(BlogPost)} />
+                <Route path="/login" component={withScripts(Login)} />
+                <Route path="/AboutUni" component={AboutUni} />
+                <Route path="/Donator" component={Donator} />
+                <Route path="/Branches" component={Branches} />
+                <PrivateRoute path="/Payments" component={Payments} />
+                <Route path="/OperationReport" component={OperationReport} />
+                <Route path="/DonationsReport" component={DonationsReport} />
+                <Route path="/FinancialReport" component={FinancialReport} />
+                <Route path="/ReportIndex" component={ReportIndex} />
+                <Route path="/Report1" component={Report1} />
+                <Route path="/Report2" component={Report2} />
+                <Route path="/Rep3" component={Rep3} />
+                <Route path="/Rep4" component={Rep4} />
+                <Route path="/Repo5" component={Repo5} />
+                <Route path="/Repo6" component={Repo6} />
 
-                <Route path="/en/Need" component={Need} />
+                <Route path="/Need" component={Need} />
 
 
 
 
                 <Route
-                  path="/en/OrganizationalChart"
+                  path="/OrganizationalChart"
                   component={OrganizationalChart}
                 />
-                <Route path="/en/BoardofTrustees" component={BoardofTrustees} />
-                <Route path="/en/BenefactorDetail/:benefactor_id" component={BenefactorDetail} />
-                <Route path="/en/SupporterDetail/:supporter_id" component={SupporterDetail} />
-                <Route path="/en/Inspector" component={Inspector} />
-                <Route path="/en/ContactUs" component={ContactUs} />
-                <Route path="/en/FAQ" component={FAQ} />
-                <Route path="/en/CEO" component={CEO} />
-                <PrivateRoute path="/en/MyInfo" component={MyInfo} />
-                <Route path="/en/StudentFunds" component={StudentFunds} />
-                <PrivateRoute path="/en/PaymentsRem" component={PaymentsRem} />
-                <PrivateRoute path="/en/PaymentsHis" component={PaymentsHis} />
-                <Route path="/en/ClickForRes" component={ClickForRes} />
-                <Route path="/en/SupportOrg" component={SupportOrg} />
+                <Route path="/BoardofTrustees" component={BoardofTrustees} />
+                <Route path="/BenefactorDetail/:benefactor_id" component={BenefactorDetail} />
+                <Route path="/SupporterDetail/:supporter_id" component={SupporterDetail} />
+                <Route path="/Inspector" component={Inspector} />
+                <Route path="/ContactUs" component={ContactUs} />
+                <Route path="/FAQ" component={FAQ} />
+                <Route path="/CEO" component={CEO} />
+                <PrivateRoute path="/MyInfo" component={MyInfo} />
+                <Route path="/StudentFunds" component={StudentFunds} />
+                <PrivateRoute path="/PaymentsRem" component={PaymentsRem} />
+                <PrivateRoute path="/PaymentsHis" component={PaymentsHis} />
+                <Route path="/ClickForRes" component={ClickForRes} />
+                <Route path="/SupportOrg" component={SupportOrg} />
 
-                <Route path="/en/JoinDonators" component={JoinDonators} />
-                <Route path="/en/DonateEdu" component={DonateEdu} />
-                <Route path="/en/SupportInt" component={SupportInt} />
-                <Route path="/en/DonateviaTime" component={DonateviaTime} />
-                <Route path="/en/HelpActionProjs" component={HelpActionProjs} />
-                <Route path="/en/SupportSus" component={SupportSus} />
-                <Route path="/en/BecomeaDonator" component={BecomeaDonator} />
+                <Route path="/JoinDonators" component={JoinDonators} />
+                <Route path="/DonateEdu" component={DonateEdu} />
+                <Route path="/SupportInt" component={SupportInt} />
+                <Route path="/DonateviaTime" component={DonateviaTime} />
+                <Route path="/HelpActionProjs" component={HelpActionProjs} />
+                <Route path="/SupportSus" component={SupportSus} />
+                <Route path="/BecomeaDonator" component={BecomeaDonator} />
                 <Route
-                  path="/en/GoalsandGuidelines"
+                  path="/GoalsandGuidelines"
                   component={GoalsandGuidelines}
                 />
-                <Route path="/en/InspectorsReport" component={InspectorsReport} />
-                <PrivateRoute path="/en/profile" component={Profile} />
+                <Route path="/InspectorsReport" component={InspectorsReport} />
+                <PrivateRoute path="/profile" component={Profile} />
               </Switch>
             </Suspense>
             <Footer />

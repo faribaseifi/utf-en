@@ -27,8 +27,8 @@ return (
 
           <nav id="breadcrumbs">
             <ul>
-              <NavItem to="/en/">Homepage</NavItem>
-              <NavItem to="/en/Donator">Donators</NavItem>
+              <NavItem to="/">Homepage</NavItem>
+              <NavItem to="/Donator">Donators</NavItem>
             </ul>
           </nav>
 

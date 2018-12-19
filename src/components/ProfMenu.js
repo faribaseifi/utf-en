@@ -14,11 +14,11 @@ export class ProfMenu extends Component {
             <ul className="my-account-nav">
               <li className="sub-nav-title">Manage Account</li>
 
-              <ProfItem exact={true} to="/en/profile">
+              <ProfItem exact={true} to="/profile">
                 My Profile
               </ProfItem>
 
-              <ProfItem exact={true} to="/en/Payments">
+              <ProfItem exact={true} to="/Payments">
                Payments (Donations)
               </ProfItem>
 
@@ -27,15 +27,15 @@ export class ProfMenu extends Component {
 
             <ul className="my-account-nav">
               <li className="sub-nav-title">Details</li>
-              <ProfItem exact={true} to="/en/myinfo">
+              <ProfItem exact={true} to="/myinfo">
                 My Info
               </ProfItem>
 
-              <ProfItem exact={true} to="/en/PaymentsHis">
+              <ProfItem exact={true} to="/PaymentsHis">
                 Payments History
               </ProfItem>
 
-              <ProfItem exact={true} to="/en/PaymentsRem">
+              <ProfItem exact={true} to="/PaymentsRem">
                 Payments Reminder
               </ProfItem>
 

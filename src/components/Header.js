@@ -61,18 +61,18 @@ export class Header extends Component {
 
               <nav id="navigation" className="style-1">
                 <ul id="responsive">
-                  <NavItem exact={true} to="/en/">
+                  <NavItem exact={true} to="/">
                     Home
                   </NavItem>
 
                   <li>
                     <a style = {{fontSize: "13px"}} href="#">About</a>
                     <ul>
-                      <NavItem to="/en/AboutUni">about university</NavItem>
+                      <NavItem to="/AboutUni">about university</NavItem>
 
-                      <NavItem to="/en/Donator">Donators</NavItem>
+                      <NavItem to="/Donator">Donators</NavItem>
 
-                      <NavItem to="/en/GoalsandGuidelines">
+                      <NavItem to="/GoalsandGuidelines">
                         Goals and Guidelines
                       </NavItem>
 
@@ -80,19 +80,19 @@ export class Header extends Component {
                         <a style = {{fontSize: "13px"}} >Reports</a>
 
                         <ul>
-                          <NavItem to="/en/OperationReport">
+                          <NavItem to="/OperationReport">
                             Operation Report
                           </NavItem>
 
-                          <NavItem to="/en/DonationsReport">
+                          <NavItem to="/DonationsReport">
                             Donations Report
                           </NavItem>
 
-                          <NavItem to="/en/InspectorsReport">
+                          <NavItem to="/InspectorsReport">
                             Inspectors Report
                           </NavItem>
 
-                          <NavItem  to="/en/FinancialReport">
+                          <NavItem  to="/FinancialReport">
                             Financial Report
                           </NavItem>
                         </ul>
@@ -100,11 +100,11 @@ export class Header extends Component {
                       <li>
                         <a style = {{fontSize: "13px"}} >Elements</a>
                         <ul>
-                          <NavItem to="/en/OrganizationalChart">
+                          <NavItem to="/OrganizationalChart">
                             Organizational Chart
                           </NavItem>
 
-                          <NavItem to="/en/BoardofTrustees">
+                          <NavItem to="/BoardofTrustees">
                             Board of Trustees
                           </NavItem>
 
@@ -113,25 +113,25 @@ export class Header extends Component {
                               Board of Directors
                             </a>
                             <ul>
-                              <NavItem to="/en/Inspector">Inspector</NavItem>
+                              <NavItem to="/Inspector">Inspector</NavItem>
                             </ul>
 
-                            <NavItem to="/en/CEO">CEO</NavItem>
+                            <NavItem to="/CEO">CEO</NavItem>
 
                           </li>
                         </ul>
                       </li>
 
-                      <NavItem to="/en/FAQ">FAQ</NavItem>
+                      <NavItem to="/FAQ">FAQ</NavItem>
                     </ul>
                   </li>
 
                   <li>
                     <a style = {{fontSize: "13px"}} href="#">Donate Now!</a>
                     <ul>
-                      <NavItem to="/en/BecomeaDonator">Become a Donator</NavItem>
+                      <NavItem to="/BecomeaDonator">Become a Donator</NavItem>
 
-                      <NavItem to="/en/DonateviaTime">
+                      <NavItem to="/DonateviaTime">
                         Donate via Time/Skill
                       </NavItem>
                     </ul>
@@ -143,33 +143,33 @@ export class Header extends Component {
                       <li>
                         <a style = {{fontSize: "13px"}}>Help with Student Loans</a>
                         <ul>
-                          <NavItem to="/en/SupportSus">
+                          <NavItem to="/SupportSus">
                             Support Susceptible Students
                           </NavItem>
 
-                          <NavItem to="/en/SupportInt">
+                          <NavItem to="/SupportInt">
                             Support International Susceptible Students
                           </NavItem>
                         </ul>
                       </li>
 
-                      <NavItem to="/en/HelpActionProjs">
+                      <NavItem to="/HelpActionProjs">
                         Help with Projects in Action
                       </NavItem>
 
-                      <NavItem to="/en/JoinDonators">
+                      <NavItem to="/JoinDonators">
                         Join Donators Community
                       </NavItem>
 
-                      <NavItem to="/en/DonateEdu">
+                      <NavItem to="/DonateEdu">
                         Donate Educational Products
                       </NavItem>
                     </ul>
                   </li>
 
-                  <NavItem to="/en/Branches">Branches</NavItem>
+                  <NavItem to="/Branches">Branches</NavItem>
 
-                  <NavItem to="/en/ContactUs">Contact Us</NavItem>
+                  <NavItem to="/ContactUs">Contact Us</NavItem>
                 </ul>
               </nav>
               <div className="clearfix" />
@@ -182,13 +182,13 @@ export class Header extends Component {
 <a onClick={this.context.removeToken} class="button border sign-in margin-right-10">
 Log Out</a>
                 ) : (
-                  <Link to="/en/login" className="sign-in">
+                  <Link to="/login" className="sign-in">
                     <i className="fa fa-user" /> Log In / Register
                   </Link>
                 )}
-                <a href="/profile" className="button border">
+                <Link to="/profile" className="button border">
                   UserName
-                </a>
+                </Link>
               </div>
             </div>
           </div>

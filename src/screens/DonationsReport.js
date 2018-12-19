@@ -20,8 +20,8 @@ render(){
 
               <nav id="breadcrumbs">
                 <ul>
-                  <NavItem to="/en/">Homepage</NavItem>
-                  <NavItem to="/en/DonationsReport">Donations Report</NavItem>
+                  <NavItem to="/">Homepage</NavItem>
+                  <NavItem to="/DonationsReport">Donations Report</NavItem>
                 </ul>
               </nav>
 

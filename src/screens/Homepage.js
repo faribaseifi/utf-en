@@ -235,7 +235,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Books-2"/>
                                         <div className="icon-links">
-                                            <Link to="/en/ReportIndex">
+                                            <Link to="/ReportIndex">
                                                 Performance Report
                                             </Link>
                                         </div>
@@ -250,7 +250,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Check"/>
                                         <div className="icon-links">
-                                            <Link to="/en/need">
+                                            <Link to="/need">
                                                 University requirements
                                             </Link>
                                         </div>
@@ -265,7 +265,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Student-MaleFemale"/>
                                         <div className="icon-links">
-                                            <Link to="/en/studentfunds">
+                                            <Link to="/studentfunds">
                                                 Student scholarship
                                             </Link>
                                         </div>
@@ -280,7 +280,7 @@ class Homepage extends Component {
                                     <div className="icon-container">
                                         <i className="im im-icon-Handshake"/>
                                         <div className="icon-links">
-                                            <Link to="/en/DonateviaTime">
+                                            <Link to="/DonateviaTime">
                                                 Spiritual contributions
                                             </Link>
                                         </div>
