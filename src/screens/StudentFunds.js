@@ -1,6 +1,7 @@
 import React, { Component , Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import NavItem from '../components/NavItem'
+import Modal_component from '../components/Modal_component'
 import { loadScripts, scripts } from '../utils/withScripts';
 
 
@@ -17,8 +18,8 @@ render(){
           <div className="row">
             <div className="col-md-12">
 
-              <h2>Founding</h2>
-              <span>Student's Founding Program</span>
+              <h2>Funding</h2>
+              <span>Student's Funding Program</span>
 
               <nav id="breadcrumbs">
                 <ul>
@@ -57,7 +58,7 @@ render(){
 <br/>
 
 
-                    <h3 className="text-center">Founds</h3>
+                    <h3 className="text-center">funds</h3>
                     <div className="col-md-12">
 
 <div className="col-md-8">
@@ -73,17 +74,17 @@ render(){
 <div className="col-md-4">
 
     <div className="">
-      <a href="#" className="button border block-btns">Border Button</a>
-    </div>
+  <Modal_component title="Button1"/>
+      </div>
     <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
-    </div>
+  <Modal_component title="Button2"/>
+      </div>
     <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
-    </div>
+  <Modal_component title="Button3"/>
+      </div>
     <div classNames="">
-      <a href="#" className="button border block-btns">Border Button</a>
-    </div>
+  <Modal_component title="Button4"/>
+      </div>
 
 
     <div className="notification error">

@@ -47,7 +47,7 @@ render(){
 
                 <div className="col-md-12">
 
-                			<table className="basic-table margin-bottom-50">
+                			<table className="basic-table margin-bottom-50 table-responsive ">
 
                 				<tbody><tr>
                 					<th>Column 1</th>

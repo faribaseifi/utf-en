@@ -9838,7 +9838,7 @@ table.basic-table th:last-child { border-radius: 0 3px 3px 0; }
 
 table.basic-table th,
 table.basic-table td {
-	padding: 15px 28px;
+	padding: 15px 10px;
 }
 
 table.basic-table tr:nth-child(odd) {

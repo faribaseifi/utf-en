@@ -19,8 +19,8 @@ class Modal_component extends React.Component {
   constructor() {
     super();
 
-    this.state = {
-      modalIsOpen: false
+  this.state = {
+      modalIsOpen: false,
     };
 
     this.openModal = this.openModal.bind(this);
@@ -45,9 +45,12 @@ class Modal_component extends React.Component {
   render() {
     return (
       <div>
+
         <a className="button border block-btns" onClick={this.openModal}>
           {this.props.title}
         </a>
+
+
         <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
@@ -61,7 +64,7 @@ class Modal_component extends React.Component {
             {this.props.body}
           </p>
           <button onClick={this.closeModal}>close</button>
-          
+
         </Modal>
       </div>
     );
